@@ -1,0 +1,35 @@
+﻿{
+    "WorldMaxX": 10,
+    "WorldMaxY": 10,
+    "Creatures": [
+        {
+            "Name": "Armed Creature",
+            "MaxHealth": 20,
+            "StartingX": 1,
+            "StartingY": 1
+        },
+        {
+            "Name": "Unarmed Creature",
+            "MaxHealth": 150,
+            "StartingX": 1,
+            "StartingY": 2
+        }
+    ],
+    "ChestItems": [
+        {
+            "Type": "AttackItem",
+            "Name": "Sword",
+            "Quantity": 1
+        },
+        {
+            "Type": "DefenceItem",
+            "Name": "Shield",
+            "Quantity": 1
+        },
+        {
+            "Type": "Consumable",
+            "Name": "Health Potion",
+            "Quantity": 3
+        }
+    ]
+}

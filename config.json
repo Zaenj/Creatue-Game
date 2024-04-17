@@ -1,0 +1,27 @@
+{
+  "GameSettings": {
+    "WorldSize": {
+      "MaxX": 20,
+      "MaxY": 20
+    },
+    "CreatureDefaults": {
+      "InitialHealth": 10,
+      "MaxHealth": 10,
+      "AttackCoefficient": 1.2,
+      "DefenseCoefficient": 1.1
+    },
+    "ItemSettings": {
+      "MaxAttackItems": 3,
+      "MaxDefenseItems": 3,
+      "MaxConsumables": 3,
+      "InitialItemProbabilities": {
+        "AttackItemChance": 50,
+        "DefenseItemChance": 30,
+        "ConsumableChance": 20
+      }
+    }
+  },
+  "DatabaseSettings": {
+    "ConnectionString": "Server=yourServerAddress;Database=yourDatabase;User Id=yourUsername;Password=yourPassword;"
+  }
+}
